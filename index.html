@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Fruit Search Engine</title>
+  <!-- link css  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <!-- kit for the search button symbol -->
+  <script src="https://kit.fontawesome.com/7d995d385c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+
+  <!-- page tittle and description -->
+  <h1> Fruit Search Engine 🍊 </h1>
+  <h4> Looking for a spcefic fruit? Type in any fruit and see if it is in our suggested list!</h4>
+
+  <div class="search-container">
+    <form id="form">
+      <!-- search bar user input -->
+      <input type="text" name="fruit" id="fruit" placeholder="Search fruit 🍎">
+      <!-- Search button/form submission -->
+      <button id="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+    <!-- search results -->
+    <div class="suggestions">
+      <ul id="suggestions-Ul"></ul>
+    </div>
+  </div>
+  <!-- partial -->
+  <!-- link js -->
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
